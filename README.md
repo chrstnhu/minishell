@@ -6,7 +6,7 @@ Write a program that does the same as the shell (based on bash)
 
 ## Collaborators
 * github : [chrstnhu](https://github.com/chrstnhu)
-* github : [haiyingluo](https://github.com/haiyingluo?tab=repositories)
+* github : [haiyingluo](https://github.com/haiyingluo)
 
 ## Run
 
