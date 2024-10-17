@@ -6,7 +6,7 @@
 /*   By: chrhu <chrhu@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/01 15:05:58 by chrhu             #+#    #+#             */
-/*   Updated: 2024/05/24 13:43:52 by chrhu            ###   ########.fr       */
+/*   Updated: 2024/10/17 16:03:06 by chrhu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,19 @@
 int	echo(char **args)
 {
 	int	i;
+	int j;
 	int	new_line;
 
-	i = 1;
+	i = 0;
+	j = 2;
 	new_line = 1;
-	while (args[i] && ft_strncmp(args[i], "-n", 3) == 0)
+	while (args[++i] && ft_strncmp(args[i], "-n", 2) == 0)
 	{
+		while (args[i][j] == 'n')
+			j++;
+		if (args[i][j] != '\0')
+			break ;
 		new_line = 0;
-		i++;
 	}
 	while (args[i])
 	{
