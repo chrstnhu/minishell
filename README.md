@@ -31,6 +31,11 @@ Run minishell :
 ./minishell
 ```
 
+Run valgrind (ignore readline leak):
+```bash
+valgrind --suppressions=ignore_readline.supp ./minishell
+```
+
 ## Rules
 * Display a prompt when waiting for a new command
 * Have a working history
