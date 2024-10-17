@@ -6,7 +6,7 @@
 /*   By: chrhu <chrhu@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/23 14:19:43 by hailuo            #+#    #+#             */
-/*   Updated: 2024/05/24 17:11:47 by chrhu            ###   ########.fr       */
+/*   Updated: 2024/10/17 16:07:17 by chrhu            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # define PERROR 1
 # define FAILED 0
 # define SUCCESS 1
+# define PATH_MAX 1000
 
 # include <unistd.h>
 # include <stdlib.h>
